@@ -1,40 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     
-    <header>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-body">
+    
+    <header class="header">
         <nav>
             <a>
                <img src="Img/Лого.svg" width="136" height="56" alt="Логотип магазина"> 
             </a>
             
-            <ul>
+            <ul class="site-navigaton">
                 <li><a href="blank.html">Каталог</a></li>
                 <li><a href="blank.html">Доставка и оплата</a></li>
                 <li><a href="blank.html">О компании</a></li>
             </ul>
             <span>+7 800 555-86-28</span>
             <a href="blank.html">поиск иконка</a>
-            <a href="blank.html">Вход</a>
+            <a class="login-link" href="blank.html">Вход</a>
             <a href="blank.html">Пусто</a>
 
 
         </nav>
     </header>
 
-    <main>
+    <main class="container">
         <h1>Магазин мороженого</h1>
 
-        <section>
-            <h2>Нежный пломбир с клубничным джемом</h2>
-            <p>Натуральное мороженое из свежих сливок и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
-            <a href="blank.html"> Заказать</a>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+        <section class="features">
+            <div class="features-items">
+                <div class="feature-item">
+                    
+                    <div class="feature-item-img">
+                        <img src="Img/cream-r.svg" alt="Мороженое на красном фоне">
+                    </div>
+                    <div class="feature-item-text">
+                        <h2>Нежный пломбир с клубничным джемом</h2>
+                        <p>Натуральное мороженое из свежих сливок и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
+                        <a class="button" href="blank.html"> Заказать</a>
+                    </div>
+
+                    <div class="feature-item-img">
+                        <img src="Img/cream-b.svg" alt="Мороженое на голубом фоне">
+                    </div>
+                    <div class="feature-item-text">
+                        <h2>Сливочное мороженое со вкусом банана</h2>
+                        <p>Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.  </p>
+                        <a class="button" href="blank.html"> Заказать</a>
+                    </div>
+
+                    <div class="feature-item-img">
+                        <img src="Img/cream-j.svg" alt="Мороженое на желтом фоне">
+                    </div>
+                    <div class="feature-item-text">
+                        <h2>Карамельный пломбир с маршмеллоу</h2>
+                        <p>Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов. </p>
+                        <a class="button" href="blank.html"> Заказать</a>
+                    </div>
+                </div>
+            </div>
+           
         </section>
 
         <section>
@@ -176,6 +232,6 @@
             </label>
         </form>
      </section>
-
+     <script src="script-slider.js"></script>
 </body>
 </html>
