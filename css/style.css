@@ -1,0 +1,133 @@
+body {
+    background-color: #FEAFC3;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.site-navigaton{
+    display: flex;
+}
+.header-logo{
+    width: 10%;
+}
+.header-nav{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-login{
+    width: 40%;
+    justify-content: space-around;
+}
+
+#navigator{
+    text-decoration: none;
+    color:black;
+    margin-left: 10%;
+}    
+
+.site-navigaton{
+    list-style-type:  none;
+    justify-content: space-evenly;
+}
+
+.header-login{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.number{
+    top: calc(50% - 20px/2);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    background: #FCFCFC;
+    width: 32px;
+    height: 32px;
+    left: 8px;
+    top: 2px;
+    border-radius:26px;
+}
+
+
+.header-img-login{
+    display: flex;
+    background-color: #FCFCFC;
+    width: 92px;
+    height: 32px;
+    opacity: 0.3;
+    border-radius:26px;
+    margin-left: 5%;
+    justify-content: center;
+
+
+}
+.header-img{
+    width: 20%;
+}
+
+.login-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    color:black;
+    width: 34px;
+    height: 20px;
+    margin-left: 4%;
+    
+}
+
+
+.basket{
+    display: flex;
+    background-color: #FCFCFC;
+    width: 92px;
+    height: 32px;
+    opacity: 0.3;
+    border-radius:26px;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.basket-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    color:black;
+    width: 34px;
+    height: 20px;
+    margin-left: 4%;
+    
+}
+
+.basket-img{
+    width: 18px;
+    height: 18px;
+
+}
+
+
