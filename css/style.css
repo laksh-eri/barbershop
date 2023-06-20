@@ -1,3 +1,9 @@
+.container{
+	width:1170px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     background-color: #FEAFC3;
     
@@ -58,8 +64,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.3;
-    background: #FCFCFC;
+	background: rgba(252,252,252, 0.3);
     width: 32px;
     height: 32px;
     left: 8px;
@@ -70,10 +75,9 @@ header{
 
 .header-img-login{
     display: flex;
-    background-color: #FCFCFC;
+	background: rgba(252,252,252, 0.3);
     width: 92px;
     height: 32px;
-    opacity: 0.3;
     border-radius:26px;
     margin-left: 5%;
     justify-content: center;
@@ -101,10 +105,9 @@ header{
 
 .basket{
     display: flex;
-    background-color: #FCFCFC;
+	background: rgba(252,252,252, 0.3);
     width: 92px;
     height: 32px;
-    opacity: 0.3;
     border-radius:26px;
     margin-left: 5%;
     justify-content: center;
@@ -131,3 +134,39 @@ header{
 }
 
 
+/*  Слайдеры */
+
+.feature-item-one{
+	display: flex;
+}
+
+.feature-item-text{
+	display: flex;
+	width: 40%;
+	text-align: inherit;
+	vertical-align: top;
+	padding: 5%;
+	
+}
+
+.feature-item-texts{
+	margin: auto;
+}
+
+.feature-item-texts h2{
+	font-size: 36px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	color: #2D3440;
+	line-height: 46px;
+
+}
+
+.feature-item-texts p{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
