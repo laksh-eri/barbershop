@@ -93,7 +93,7 @@ header{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 32px;
     text-decoration: none;
     color:black;
     width: 34px;
@@ -118,7 +118,7 @@ header{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 32px;
     text-decoration: none;
     color:black;
     width: 34px;
@@ -128,9 +128,7 @@ header{
 }
 
 .basket-img{
-    width: 18px;
-    height: 18px;
-
+    width: 20%
 }
 
 
@@ -169,4 +167,101 @@ header{
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 24px;
+}
+
+.button-color{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #FCFCFC;
+	width: 139px;
+	height: 44px;
+	left: 168px;
+	top: 476px;
+	border: 4px solid rgba(252, 252, 252, 0.4);
+	box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+	border-radius: 26px;
+	background-clip: content-box;
+	
+}	
+
+.button-color .button{
+	
+	vertical-align: middle;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 44px;
+	text-align: center;
+	text-decoration: none;
+	color: #2D3440;
+
+}
+
+
+/* ЦЕНТРАЛЬНАЯ НАДПИСЬ ПОСЛЕ СЛАЙДЕРОВ */
+
+.main-text{
+	margin-left: auto;
+	margin-right: auto;
+	width: 443px;
+	height: 92px;
+	left: 461px;
+	top: 738px;
+}
+
+.main-text h3{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 46px;
+	text-align: center;
+	color: #2D3440;
+}
+
+.discount-block{
+	display: flex;
+	justify-content:space-between
+}
+
+.discount-block-one{
+	display: flex;
+	width: 570px;
+	height: 268px;
+	left: 98px;
+	top: 886px;
+	border-radius: 16px;
+	background-color: #FF7799;
+}
+
+.discount-block-one h4{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.discount-block-one .button{
+	
+	background: #FCFCFC;
+	border: 4px solid rgba(252, 252, 252, 0.4);
+	box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+	border-radius: 26px;
+	width: 176px;
+	height: 44px;
+	text-align: center;
+	background-clip: content-box;
+}
+
+.button-order{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 44px;
+	text-decoration: none;
+	color: #2D3440;
 }
