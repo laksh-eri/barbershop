@@ -223,10 +223,12 @@ header{
 
 .discount-block{
 	display: flex;
-	justify-content:space-between
+	justify-content:space-between;
+	margin-top: 56px;
 }
 
 .discount-block-one{
+	justify-content: center;
 	display: flex;
 	width: 570px;
 	height: 268px;
@@ -241,7 +243,15 @@ header{
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 30px;
+	line-height: 10px;
+}
+
+.discount-block-one {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .discount-block-one .button{
@@ -256,6 +266,10 @@ header{
 	background-clip: content-box;
 }
 
+.text-block-one{
+	margin: 17px;
+}
+
 .button-order{
 	font-family: 'Inter';
 	font-style: normal;
@@ -264,4 +278,68 @@ header{
 	line-height: 44px;
 	text-decoration: none;
 	color: #2D3440;
+}
+
+.Img-raspberries{
+	padding-top: 28px;
+}
+
+.Img-marshmallow{
+	padding-top: 19px;
+}
+
+.main-select{
+	margin-left: 322px;
+	margin-right: 321px;
+}
+
+.main-select h3{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 46px;
+	text-align: center;
+	color: #2D3440;
+}
+
+.main-items{
+	display: flex;
+}
+
+.main-item{
+	width: 270px;
+	height: 332px;
+	position:relative;
+}
+
+.main-item-text{
+	text-align: center;
+	width: 270px;
+	height: 281px;
+	background:#FCFCFC;
+	border-radius: 8px;
+	position: absolute;
+	bottom: 0px;
+}
+.main-item-text-img{
+	position: relative;
+	margin-top: -51px;
+}
+
+.main-item-text h4{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	margin: auto;
+}
+
+.text-main{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
