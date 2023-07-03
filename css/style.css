@@ -10,10 +10,11 @@ body {
 }
 
 header{
+    width: 1366px;
     display: flex;
     justify-content: space-between;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .site-navigaton{
@@ -305,6 +306,7 @@ header{
 
 .main-items{
 	display: flex;
+    justify-content: space-around;
 }
 
 .main-item{
@@ -342,4 +344,37 @@ header{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
+}
+
+.main-item-text-name{
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-item-text-price{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.main-basket-img{
+    position:absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+.price{
+    margin-top: 4px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 }
