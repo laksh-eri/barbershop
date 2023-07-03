@@ -10,10 +10,11 @@ body {
 }
 
 header{
+    width: 1366px;
     display: flex;
     justify-content: space-between;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .site-navigaton{
@@ -305,6 +306,7 @@ header{
 
 .main-items{
 	display: flex;
+    justify-content: space-around;
 }
 
 .main-item{
@@ -344,52 +346,35 @@ header{
 	line-height: 22px;
 }
 
-
-/* Превью */
-
-.preview{
-	display: flex;
-	width: 1170px;
-	height: 480px;
-	background: url(/Img/Вафля_фон.svg);
-	border-radius: 16px;
-	margin-top: 80px;
+.main-item-text-name{
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.preview-section{
-	width: 1122px;
-	height: 432px;
-	background: #FCFCFC;
-	margin: auto;
+.main-item-text-price{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.preview-header{
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 900;
-	font-size: 32px;
-	line-height: 46px;
-	text-align: center;
-	margin:56px 64px;
+.main-basket-img{
+    position:absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    right: 0;
+    margin: auto;
 }
 
-.preview-texts{
-	display: grid;
-	grid-template-columns: repeat(auto-fit,502px);
-	height: 172px;
-}
-
-.preview-block{
-	width: 506px;
-	height: 62px;
-	display: flex;
-}
-
-.preview-text{
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	color: #565C66;
+.price{
+    margin-top: 4px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 }
