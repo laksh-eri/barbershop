@@ -343,3 +343,53 @@ header{
 	font-size: 16px;
 	line-height: 22px;
 }
+
+
+/* Превью */
+
+.preview{
+	display: flex;
+	width: 1170px;
+	height: 480px;
+	background: url(/Img/Вафля_фон.svg);
+	border-radius: 16px;
+	margin-top: 80px;
+}
+
+.preview-section{
+	width: 1122px;
+	height: 432px;
+	background: #FCFCFC;
+	margin: auto;
+}
+
+.preview-header{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 46px;
+	text-align: center;
+	margin:56px 64px;
+}
+
+.preview-texts{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,502px);
+	height: 172px;
+}
+
+.preview-block{
+	width: 506px;
+	height: 62px;
+	display: flex;
+}
+
+.preview-text{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #565C66;
+}
