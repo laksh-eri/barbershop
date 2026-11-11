@@ -205,8 +205,10 @@ def build(cfg):
     with open(script, "w", encoding="utf-8") as fh:
         fh.write(";\n".join(f))
     cmd += ["-filter_complex_script", script, "-map", "[vout]", "-map", "[aout]",
-            "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "10M", "-bufsize", "20M", "-pix_fmt", "yuv420p",
-            "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-movflags", "+faststart",
+            "-c:v", "libx264", "-preset", cfg.get("preset", "medium"), "-crf", str(cfg.get("crf", 21)),
+            "-maxrate", cfg.get("maxrate", "10M"), "-bufsize", cfg.get("bufsize", "20M"),
+            "-profile:v", "high", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", cfg.get("abitrate", "192k"), "-ar", "44100", "-movflags", "+faststart",
             "-t", f"{total:.3f}", cfg["out"]]
     subprocess.run(cmd, check=True)
     print(f"Готово: {cfg['out']} ({total:.1f} с)")
