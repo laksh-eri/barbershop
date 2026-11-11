@@ -186,7 +186,7 @@ def build(cfg):
     with open(script, "w", encoding="utf-8") as fh:
         fh.write(";\n".join(f))
     cmd += ["-filter_complex_script", script, "-map", "[vout]", "-map", "[aout]",
-            "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
+            "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "10M", "-bufsize", "20M", "-pix_fmt", "yuv420p",
             "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-movflags", "+faststart",
             "-t", f"{total:.3f}", cfg["out"]]
     subprocess.run(cmd, check=True)
