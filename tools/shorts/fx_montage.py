@@ -33,6 +33,9 @@ GRADES = {
     # Очень ярко и сочно
     "vivid": "eq=contrast=1.14:saturation=1.75:gamma=1.10:brightness=0.03,vibrance=intensity=0.45,"
              "colorbalance=rs=0.03:bs=0.05:rh=0.05:bh=0.03,unsharp=5:5:0.8,vignette=angle=PI/6",
+    # Очень ярко, без виньетки (края кадра не затемняются)
+    "vivid_clean": "eq=contrast=1.12:saturation=1.75:gamma=1.10:brightness=0.03,vibrance=intensity=0.45,"
+                   "colorbalance=rs=0.03:bs=0.05:rh=0.05:bh=0.03,unsharp=5:5:0.8",
     # Очень ярко для тёмных экшен-сцен: сильнее подняты тени
     "vivid_action": "eq=contrast=1.12:saturation=1.8:gamma=1.32:brightness=0.04,vibrance=intensity=0.5,"
                     "colorbalance=rs=-0.03:bs=0.07:rh=0.08:bh=-0.03,unsharp=5:5:0.9,vignette=angle=PI/6",
@@ -186,8 +189,9 @@ def build(cfg):
         g.append(f"noise=alls={cfg['grain']}:allf=t")
     if cfg.get("progress", True):
         g.append(f"drawbox=x=0:y=ih-12:w='iw*t/{total:.3f}':h=12:color=0xff2bd6@0.9:t=fill")
-    g.append("fade=t=in:d=0.3")
-    g.append(f"fade=t=out:st={total - 0.5:.3f}:d=0.5")
+    if cfg.get("edge_fades", True):
+        g.append("fade=t=in:d=0.3")
+        g.append(f"fade=t=out:st={total - 0.5:.3f}:d=0.5")
     if cfg.get("rotate"):
         # горизонтальное видео, повёрнутое внутри вертикального кадра 1080x1920
         g.append("transpose=clock")
