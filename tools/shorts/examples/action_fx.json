@@ -1,0 +1,179 @@
+{
+ "src": "source.mp4",
+ "out": "action_fx.mp4",
+ "mode": "crop",
+ "grade": "action",
+ "zoom": 0.02,
+ "grain": 9,
+ "xfade": 0.3,
+ "transitions": [
+  "fadewhite",
+  "pixelize",
+  "zoomin",
+  "slideup",
+  "hblur",
+  "fadeblack",
+  "wipeleft"
+ ],
+ "overlays": [
+  {
+   "text": "ЭТО НЕ\nФИЛЬМ.",
+   "style": "punch",
+   "at": 0.2,
+   "len": 2.4,
+   "size": 120,
+   "color": "white"
+  },
+  {
+   "text": "ЭТО\nИГРА.",
+   "style": "punch",
+   "at": 2.8,
+   "len": 2.4,
+   "size": 150
+  },
+  {
+   "text": "GTA VI",
+   "style": "title",
+   "at": -3.0,
+   "len": 3.0,
+   "size": 170,
+   "y": 0.42
+  },
+  {
+   "text": "19 НОЯБРЯ 2026",
+   "style": "under",
+   "at": -2.7,
+   "len": 2.7,
+   "y": 0.52
+  }
+ ],
+ "segments": [
+  {
+   "start": "4:44",
+   "dur": 3,
+   "shake": true,
+   "glitch": true
+  },
+  {
+   "start": "4:55",
+   "dur": 3,
+   "glitch": true
+  },
+  {
+   "start": "11:38",
+   "dur": 3,
+   "shake": true,
+   "glitch": true,
+   "texts": [
+    {
+     "text": "ОГРАБЛЕНИЕ",
+     "at": 0.3,
+     "style": "caption",
+     "len": 2.15
+    }
+   ]
+  },
+  {
+   "start": "14:00",
+   "dur": 3,
+   "glitch": true,
+   "texts": [
+    {
+     "text": "ПОЛИЦИЯ НА ХВОСТЕ",
+     "at": 0.3,
+     "style": "caption",
+     "len": 2.15
+    }
+   ]
+  },
+  {
+   "start": "14:14",
+   "dur": 4,
+   "slow": 1.6,
+   "shake": true,
+   "texts": [
+    {
+     "text": "ЖЁСТКО",
+     "style": "punch",
+     "at": 3.2,
+     "len": 2.0
+    }
+   ]
+  },
+  {
+   "start": "15:40",
+   "dur": 3,
+   "glitch": true,
+   "texts": [
+    {
+     "text": "ПОГОНЯ",
+     "at": 0.3,
+     "style": "caption",
+     "len": 2.15
+    }
+   ]
+  },
+  {
+   "start": "16:03",
+   "dur": 3,
+   "shake": true
+  },
+  {
+   "start": "17:44",
+   "dur": 3,
+   "glitch": true,
+   "texts": [
+    {
+     "text": "ГОНКИ",
+     "at": 0.3,
+     "style": "caption",
+     "len": 2.15
+    }
+   ]
+  },
+  {
+   "start": "18:03",
+   "dur": 3,
+   "shake": true,
+   "texts": [
+    {
+     "text": "ДЕРЗКО",
+     "at": 0.3,
+     "style": "caption",
+     "len": 2.15
+    }
+   ]
+  },
+  {
+   "start": "18:35",
+   "dur": 3,
+   "glitch": true
+  },
+  {
+   "start": "18:43",
+   "dur": 4,
+   "slow": 1.5,
+   "shake": true,
+   "texts": [
+    {
+     "text": "БУМ!",
+     "style": "punch",
+     "at": 2.7,
+     "len": 2.2,
+     "size": 200
+    }
+   ]
+  },
+  {
+   "start": "25:09",
+   "dur": 3,
+   "shake": true,
+   "glitch": true
+  },
+  {
+   "start": "25:20",
+   "dur": 3,
+   "glitch": true
+  }
+ ]
+}
