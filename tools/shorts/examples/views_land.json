@@ -1,0 +1,203 @@
+{
+ "src": "source.mp4",
+ "out": "views_land.mp4",
+ "mode": "full",
+ "grade": "vivid",
+ "zoom": 0.02,
+ "grain": 5,
+ "xfade": 0.5,
+ "transitions": [
+  "smoothleft",
+  "circleopen",
+  "dissolve",
+  "smoothup",
+  "radial",
+  "zoomin",
+  "hblur"
+ ],
+ "overlays": [
+  {
+   "text": "ДОБРО ПОЖАЛОВАТЬ",
+   "style": "kicker",
+   "at": 1.9,
+   "len": 3.4,
+   "y": 0.36
+  },
+  {
+   "text": "В ВАЙС-СИТИ",
+   "style": "title",
+   "at": 1.9,
+   "len": 3.2,
+   "y": 0.47
+  },
+  {
+   "text": "GTA VI",
+   "style": "title",
+   "at": -3.0,
+   "len": 3.0,
+   "size": 170,
+   "y": 0.44
+  },
+  {
+   "text": "19 НОЯБРЯ 2026",
+   "style": "under",
+   "at": -2.7,
+   "len": 2.7,
+   "y": 0.58
+  }
+ ],
+ "segments": [
+  {
+   "start": "8:53",
+   "dur": 5
+  },
+  {
+   "start": "12:26",
+   "dur": 4,
+   "texts": [
+    {
+     "text": "ПАНОРАМА ГОРОДА",
+     "at": 0.45,
+     "style": "caption",
+     "len": 3.0,
+     "y": 0.86
+    }
+   ]
+  },
+  {
+   "start": "12:34",
+   "dur": 4,
+   "texts": [
+    {
+     "text": "ЗАКАТНОЕ ШОССЕ",
+     "at": 0.45,
+     "style": "caption",
+     "len": 3.0,
+     "y": 0.86
+    }
+   ]
+  },
+  {
+   "start": "16:33",
+   "dur": 5,
+   "texts": [
+    {
+     "text": "С ВЫСОТЫ ПТИЧЬЕГО ПОЛЁТА",
+     "at": 0.45,
+     "style": "caption",
+     "len": 4.0,
+     "y": 0.86
+    }
+   ]
+  },
+  {
+   "start": "17:11",
+   "dur": 3,
+   "texts": [
+    {
+     "text": "ДИКИЕ БОЛОТА ЛЕОНИДЫ",
+     "at": 0.45,
+     "style": "caption",
+     "len": 2.0,
+     "y": 0.86
+    }
+   ]
+  },
+  {
+   "start": "17:24",
+   "dur": 2.5,
+   "texts": [
+    {
+     "text": "ОКЕАН",
+     "at": 0.3,
+     "style": "caption",
+     "len": 1.65,
+     "y": 0.86
+    }
+   ]
+  },
+  {
+   "start": "17:26.5",
+   "dur": 2
+  },
+  {
+   "start": "18:49",
+   "dur": 4,
+   "texts": [
+    {
+     "text": "ПРЫЖОК НАД ГОРОДОМ",
+     "at": 0.45,
+     "style": "caption",
+     "len": 3.0,
+     "y": 0.86
+    }
+   ]
+  },
+  {
+   "start": "18:54",
+   "dur": 4,
+   "slow": 1.3
+  },
+  {
+   "start": "20:15",
+   "dur": 2,
+   "texts": [
+    {
+     "text": "А НОЧЬЮ…",
+     "style": "punch",
+     "at": 0.3,
+     "len": 1.3,
+     "size": 110,
+     "color": "white",
+     "glow": "0xff2bd6",
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "start": "20:23",
+   "dur": 3,
+   "texts": [
+    {
+     "text": "НОЧНЫЕ ГОНКИ",
+     "at": 0.45,
+     "style": "caption",
+     "len": 2.0,
+     "y": 0.86
+    }
+   ]
+  },
+  {
+   "start": "20:32",
+   "dur": 2
+  },
+  {
+   "start": "25:46",
+   "dur": 4
+  },
+  {
+   "start": "25:50",
+   "dur": 1.9
+  }
+ ],
+ "orient": "landscape",
+ "rotate": true,
+ "rotated_overlays": [
+  {
+   "text": "ПОВЕРНИ",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.44,
+   "size": 120
+  },
+  {
+   "text": "ТЕЛЕФОН",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.52,
+   "size": 120
+  }
+ ]
+}

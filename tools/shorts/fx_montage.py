@@ -30,6 +30,12 @@ GRADES = {
     # Экшен: teal & orange, поднятые тени, резкость
     "action": "eq=contrast=1.16:saturation=1.22:gamma=1.12,"
               "colorbalance=rs=-0.05:bs=0.09:rh=0.09:bh=-0.05,unsharp=5:5:0.7,vignette=angle=PI/4.5",
+    # Очень ярко и сочно
+    "vivid": "eq=contrast=1.14:saturation=1.75:gamma=1.10:brightness=0.03,vibrance=intensity=0.45,"
+             "colorbalance=rs=0.03:bs=0.05:rh=0.05:bh=0.03,unsharp=5:5:0.8,vignette=angle=PI/6",
+    # Очень ярко для тёмных экшен-сцен: сильнее подняты тени
+    "vivid_action": "eq=contrast=1.12:saturation=1.8:gamma=1.32:brightness=0.04,vibrance=intensity=0.5,"
+                    "colorbalance=rs=-0.03:bs=0.07:rh=0.08:bh=-0.03,unsharp=5:5:0.9,vignette=angle=PI/6",
 }
 
 STYLES = {
@@ -103,6 +109,9 @@ class TextMaker:
 
 
 def build(cfg):
+    global W, H
+    if cfg.get("orient") == "landscape":
+        W, H = 1920, 1080
     tmp = tempfile.mkdtemp()
     tm = TextMaker(tmp)
     mode = cfg.get("mode", "crop")
@@ -122,13 +131,13 @@ def build(cfg):
         durs.append(d)
         v = [f"[{i}:v]"]
         chain = []
-        if mode == "crop":
+        if mode == "crop" and W < H:
             chain.append("crop='trunc(ih*9/16/2)*2':ih")
         if slow != 1.0:
             chain.append("minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:vsbmc=1")
             chain.append(f"setpts={slow}*PTS")
         chain.append("fps=30")
-        if mode == "crop":
+        if mode in ("crop", "full"):
             chain.append(f"scale={W}:{H}:flags=lanczos")
             pre = ",".join(chain)
         else:
@@ -179,6 +188,12 @@ def build(cfg):
         g.append(f"drawbox=x=0:y=ih-12:w='iw*t/{total:.3f}':h=12:color=0xff2bd6@0.9:t=fill")
     g.append("fade=t=in:d=0.3")
     g.append(f"fade=t=out:st={total - 0.5:.3f}:d=0.5")
+    if cfg.get("rotate"):
+        # горизонтальное видео, повёрнутое внутри вертикального кадра 1080x1920
+        g.append("transpose=clock")
+        W, H = H, W
+        for t in cfg.get("rotated_overlays", []):
+            g.extend(tm.filters(t))
     f.append(f"[{vl}]" + ",".join(g) + "[vout]")
     f.append(f"[{al}]afade=t=in:d=0.3,afade=t=out:st={total - 0.6:.3f}:d=0.6,loudnorm=I=-14:TP=-1.5[aout]")
 

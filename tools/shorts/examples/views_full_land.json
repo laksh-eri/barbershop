@@ -1,0 +1,214 @@
+{
+ "src": "source.mp4",
+ "out": "views_full_land.mp4",
+ "mode": "full",
+ "grade": "vivid",
+ "zoom": 0.012,
+ "grain": 4,
+ "xfade": 0.5,
+ "transitions": [
+  "smoothleft",
+  "circleopen",
+  "dissolve",
+  "radial",
+  "smoothup",
+  "zoomin"
+ ],
+ "overlays": [
+  {
+   "text": "ВАЙС-СИТИ",
+   "style": "label",
+   "at": 1.9,
+   "len": 31.9,
+   "y": 0.1,
+   "size": 72
+  },
+  {
+   "text": "ОТКРЫТКИ ИЗ ЛЕОНИДЫ",
+   "style": "kicker",
+   "at": 1.9,
+   "len": 31.9,
+   "y": 0.165,
+   "size": 36
+  },
+  {
+   "text": "GTA VI · 19.11.2026",
+   "style": "under",
+   "at": -3.0,
+   "len": 3.0,
+   "y": 0.86,
+   "size": 56
+  }
+ ],
+ "segments": [
+  {
+   "start": "8:53",
+   "dur": 5,
+   "texts": [
+    {
+     "text": "— ДОРОГА В ГОРОД —",
+     "style": "under",
+     "at": 0.35,
+     "len": 4.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "12:26",
+   "dur": 4,
+   "texts": [
+    {
+     "text": "— ПАНОРАМА —",
+     "style": "under",
+     "at": 0.35,
+     "len": 3.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "12:34",
+   "dur": 4,
+   "texts": [
+    {
+     "text": "— ЗАКАТНОЕ ШОССЕ —",
+     "style": "under",
+     "at": 0.35,
+     "len": 3.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "16:33",
+   "dur": 5,
+   "texts": [
+    {
+     "text": "— ВИД СВЕРХУ —",
+     "style": "under",
+     "at": 0.35,
+     "len": 4.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "17:11",
+   "dur": 3,
+   "texts": [
+    {
+     "text": "— БОЛОТА —",
+     "style": "under",
+     "at": 0.35,
+     "len": 2.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "17:24",
+   "dur": 2.5,
+   "texts": [
+    {
+     "text": "— ОКЕАН —",
+     "style": "under",
+     "at": 0.35,
+     "len": 1.6,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "18:49",
+   "dur": 4,
+   "texts": [
+    {
+     "text": "— ПРЫЖОК —",
+     "style": "under",
+     "at": 0.35,
+     "len": 3.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "18:54",
+   "dur": 4,
+   "texts": [
+    {
+     "text": "— ПАРАШЮТ —",
+     "style": "under",
+     "at": 0.35,
+     "len": 3.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "20:23",
+   "dur": 3,
+   "texts": [
+    {
+     "text": "— НОЧНЫЕ ГОНКИ —",
+     "style": "under",
+     "at": 0.35,
+     "len": 2.1,
+     "y": 0.88,
+     "size": 52,
+     "color": "white",
+     "glow": "0x5ef2ff"
+    }
+   ]
+  },
+  {
+   "start": "25:46",
+   "dur": 3.9,
+   "texts": []
+  }
+ ],
+ "orient": "landscape",
+ "rotate": true,
+ "rotated_overlays": [
+  {
+   "text": "ПОВЕРНИ",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.44,
+   "size": 120
+  },
+  {
+   "text": "ТЕЛЕФОН",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.52,
+   "size": 120
+  }
+ ]
+}
