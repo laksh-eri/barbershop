@@ -1,0 +1,111 @@
+{
+ "src": "source.mp4",
+ "out": "05_mashiny.mp4",
+ "orient": "landscape",
+ "mode": "full",
+ "grade": "vivid",
+ "zoom": 0.015,
+ "grain": 3,
+ "xfade": 0.5,
+ "rotate": true,
+ "rotated_overlays": [
+  {
+   "text": "ПОВЕРНИ",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.44,
+   "size": 120
+  },
+  {
+   "text": "ТЕЛЕФОН",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.52,
+   "size": 120
+  }
+ ],
+ "transitions": [
+  "smoothleft",
+  "circleopen",
+  "dissolve",
+  "smoothup",
+  "radial",
+  "zoomin",
+  "hblur",
+  "smoothright",
+  "fadewhite"
+ ],
+ "overlays": [
+  {
+   "text": "ДОРОГИ ЛЕОНИДЫ",
+   "style": "kicker",
+   "at": 1.9,
+   "len": 3.2,
+   "y": 0.36,
+   "size": 46
+  },
+  {
+   "text": "НА КОЛЁСАХ",
+   "style": "title",
+   "at": 2.0,
+   "len": 3.1,
+   "y": 0.47,
+   "size": 130
+  },
+  {
+   "text": "GTA VI",
+   "style": "title",
+   "at": -2.8,
+   "len": 2.8,
+   "y": 0.44,
+   "size": 170
+  },
+  {
+   "text": "19 НОЯБРЯ 2026",
+   "style": "under",
+   "at": -2.5,
+   "len": 2.5,
+   "y": 0.58
+  }
+ ],
+ "segments": [
+  {
+   "start": "6:06",
+   "dur": 4
+  },
+  {
+   "start": "8:23",
+   "dur": 5
+  },
+  {
+   "start": "8:50",
+   "dur": 5
+  },
+  {
+   "start": "12:34",
+   "dur": 4
+  },
+  {
+   "start": "15:30",
+   "dur": 4
+  },
+  {
+   "start": "17:44",
+   "dur": 4
+  },
+  {
+   "start": "20:23",
+   "dur": 3
+  },
+  {
+   "start": "18:25",
+   "dur": 3
+  },
+  {
+   "start": "16:25",
+   "dur": 3
+  }
+ ]
+}

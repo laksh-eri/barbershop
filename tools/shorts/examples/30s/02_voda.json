@@ -1,0 +1,123 @@
+{
+ "src": "source.mp4",
+ "out": "02_voda.mp4",
+ "orient": "landscape",
+ "mode": "full",
+ "grade": "vivid",
+ "zoom": 0.015,
+ "grain": 3,
+ "xfade": 0.5,
+ "rotate": true,
+ "rotated_overlays": [
+  {
+   "text": "ПОВЕРНИ",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.44,
+   "size": 120
+  },
+  {
+   "text": "ТЕЛЕФОН",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.52,
+   "size": 120
+  }
+ ],
+ "transitions": [
+  "smoothleft",
+  "circleopen",
+  "dissolve",
+  "smoothup",
+  "radial",
+  "zoomin",
+  "hblur",
+  "smoothright",
+  "fadewhite"
+ ],
+ "overlays": [
+  {
+   "text": "ОКЕАН · БОЛОТА · ПЛЯЖИ",
+   "style": "kicker",
+   "at": 1.9,
+   "len": 3.2,
+   "y": 0.36,
+   "size": 46
+  },
+  {
+   "text": "ВОДА И СОЛНЦЕ",
+   "style": "title",
+   "at": 2.0,
+   "len": 3.1,
+   "y": 0.47,
+   "size": 130
+  },
+  {
+   "text": "GTA VI",
+   "style": "title",
+   "at": -2.8,
+   "len": 2.8,
+   "y": 0.44,
+   "size": 170
+  },
+  {
+   "text": "19 НОЯБРЯ 2026",
+   "style": "under",
+   "at": -2.5,
+   "len": 2.5,
+   "y": 0.58
+  }
+ ],
+ "segments": [
+  {
+   "start": "17:11",
+   "dur": 2.8
+  },
+  {
+   "start": "17:17",
+   "dur": 2.0
+  },
+  {
+   "start": "17:24",
+   "dur": 3
+  },
+  {
+   "start": "17:26.5",
+   "dur": 2.5
+  },
+  {
+   "start": "18:30",
+   "dur": 2.5
+  },
+  {
+   "start": "17:30",
+   "dur": 2
+  },
+  {
+   "start": "8:53",
+   "dur": 5
+  },
+  {
+   "start": "16:33",
+   "dur": 6
+  },
+  {
+   "start": "25:50",
+   "dur": 2
+  },
+  {
+   "start": "25:52",
+   "dur": 2
+  },
+  {
+   "start": "26:08",
+   "dur": 2
+  },
+  {
+   "start": "12:38",
+   "dur": 3.5
+  }
+ ]
+}

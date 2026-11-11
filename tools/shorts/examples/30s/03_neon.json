@@ -1,0 +1,123 @@
+{
+ "src": "source.mp4",
+ "out": "03_neon.mp4",
+ "orient": "landscape",
+ "mode": "full",
+ "grade": "vivid",
+ "zoom": 0.015,
+ "grain": 3,
+ "xfade": 0.5,
+ "rotate": true,
+ "rotated_overlays": [
+  {
+   "text": "ПОВЕРНИ",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.44,
+   "size": 120
+  },
+  {
+   "text": "ТЕЛЕФОН",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.52,
+   "size": 120
+  }
+ ],
+ "transitions": [
+  "smoothleft",
+  "circleopen",
+  "dissolve",
+  "smoothup",
+  "radial",
+  "zoomin",
+  "hblur",
+  "smoothright",
+  "fadewhite"
+ ],
+ "overlays": [
+  {
+   "text": "КОГДА ГОРОД ЗАЖИГАЕТСЯ",
+   "style": "kicker",
+   "at": 1.9,
+   "len": 3.2,
+   "y": 0.36,
+   "size": 46
+  },
+  {
+   "text": "НЕОНОВАЯ НОЧЬ",
+   "style": "title",
+   "at": 2.0,
+   "len": 3.1,
+   "y": 0.47,
+   "size": 130
+  },
+  {
+   "text": "GTA VI",
+   "style": "title",
+   "at": -2.8,
+   "len": 2.8,
+   "y": 0.44,
+   "size": 170
+  },
+  {
+   "text": "19 НОЯБРЯ 2026",
+   "style": "under",
+   "at": -2.5,
+   "len": 2.5,
+   "y": 0.58
+  }
+ ],
+ "segments": [
+  {
+   "start": "20:10",
+   "dur": 3
+  },
+  {
+   "start": "20:15",
+   "dur": 2
+  },
+  {
+   "start": "20:17",
+   "dur": 5
+  },
+  {
+   "start": "20:23",
+   "dur": 3
+  },
+  {
+   "start": "20:27",
+   "dur": 3
+  },
+  {
+   "start": "20:32",
+   "dur": 2
+  },
+  {
+   "start": "20:35",
+   "dur": 3
+  },
+  {
+   "start": "20:44",
+   "dur": 4
+  },
+  {
+   "start": "21:15",
+   "dur": 3
+  },
+  {
+   "start": "21:20",
+   "dur": 2
+  },
+  {
+   "start": "23:04",
+   "dur": 3
+  },
+  {
+   "start": "17:40",
+   "dur": 2
+  }
+ ]
+}

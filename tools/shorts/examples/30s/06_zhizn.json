@@ -1,0 +1,115 @@
+{
+ "src": "source.mp4",
+ "out": "06_zhizn.mp4",
+ "orient": "landscape",
+ "mode": "full",
+ "grade": "vivid",
+ "zoom": 0.015,
+ "grain": 3,
+ "xfade": 0.5,
+ "rotate": true,
+ "rotated_overlays": [
+  {
+   "text": "ПОВЕРНИ",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.44,
+   "size": 120
+  },
+  {
+   "text": "ТЕЛЕФОН",
+   "style": "title",
+   "at": 0.0,
+   "len": 1.8,
+   "y": 0.52,
+   "size": 120
+  }
+ ],
+ "transitions": [
+  "smoothleft",
+  "circleopen",
+  "dissolve",
+  "smoothup",
+  "radial",
+  "zoomin",
+  "hblur",
+  "smoothright",
+  "fadewhite"
+ ],
+ "overlays": [
+  {
+   "text": "ЛЮДИ · ВЕЧЕРИНКИ · СТИЛЬ",
+   "style": "kicker",
+   "at": 1.9,
+   "len": 3.2,
+   "y": 0.36,
+   "size": 46
+  },
+  {
+   "text": "ЖИЗНЬ ВАЙС-СИТИ",
+   "style": "title",
+   "at": 2.0,
+   "len": 3.1,
+   "y": 0.47,
+   "size": 130
+  },
+  {
+   "text": "GTA VI",
+   "style": "title",
+   "at": -2.8,
+   "len": 2.8,
+   "y": 0.44,
+   "size": 170
+  },
+  {
+   "text": "19 НОЯБРЯ 2026",
+   "style": "under",
+   "at": -2.5,
+   "len": 2.5,
+   "y": 0.58
+  }
+ ],
+ "segments": [
+  {
+   "start": "6:45",
+   "dur": 5
+  },
+  {
+   "start": "9:05",
+   "dur": 3
+  },
+  {
+   "start": "9:52",
+   "dur": 4
+  },
+  {
+   "start": "10:03",
+   "dur": 3
+  },
+  {
+   "start": "10:20",
+   "dur": 2
+  },
+  {
+   "start": "17:20",
+   "dur": 3
+  },
+  {
+   "start": "18:15",
+   "dur": 4
+  },
+  {
+   "start": "18:30",
+   "dur": 2.5
+  },
+  {
+   "start": "19:17",
+   "dur": 4
+  },
+  {
+   "start": "21:15",
+   "dur": 3
+  }
+ ]
+}
