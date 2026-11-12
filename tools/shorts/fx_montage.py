@@ -198,7 +198,7 @@ def build(cfg):
         W, H = H, W
         for t in cfg.get("rotated_overlays", []):
             g.extend(tm.filters(t))
-    f.append(f"[{vl}]" + ",".join(g) + "[vout]")
+    f.append(f"[{vl}]" + (",".join(g) or "null") + "[vout]")
     f.append(f"[{al}]afade=t=in:d=0.3,afade=t=out:st={total - 0.6:.3f}:d=0.6,loudnorm=I=-14:TP=-1.5[aout]")
 
     script = os.path.join(tmp, "graph.txt")
