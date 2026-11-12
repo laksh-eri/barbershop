@@ -134,6 +134,9 @@ def build(cfg):
         durs.append(d)
         v = [f"[{i}:v]"]
         chain = []
+        if cfg.get("precrop"):
+            # убрать чёрные полосы кинорамки, например "1920:864:0:108"
+            chain.append(f"crop={cfg['precrop']}")
         if mode == "crop" and W < H:
             chain.append("crop='trunc(ih*9/16/2)*2':ih")
         if slow != 1.0:
